@@ -71,6 +71,7 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", path: "install-basic-software.sh", run: "once"
   config.vm.provision "shell", path: "install-docker-engine.sh", run: "once"
   config.vm.provision "shell", path: "configure-docker-rootless.sh", run: "once", privileged: false
+  config.vm.provision "shell", path: "install-microk8s.ssh", run: "once"
   config.vm.provision "shell", path: "finalizing.sh", run: "once"
   
   
