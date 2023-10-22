@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "###"
-echo "### configure-docker-rootless.sh ###"
+echo "### finalizing.sh ###"
 echo "###"
 
 echo "> remove microk8s from sudo"

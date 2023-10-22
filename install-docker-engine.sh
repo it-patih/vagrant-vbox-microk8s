@@ -2,6 +2,7 @@
 
 echo "###"
 echo "### install-docker-engine.sh ###"
+echo `id`
 echo "###"
 
 DEBIAN_FRONTEND=noninteractive apt-get -yq update

@@ -2,6 +2,7 @@
 
 echo "###"
 echo "### install-basic-software.sh ###"
+echo `id`
 echo "###"
 
 DEBIAN_FRONTEND=noninteractive apt-get -yq update

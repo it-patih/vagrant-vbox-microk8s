@@ -2,6 +2,7 @@
 
 echo "###"
 echo "### configure-docker-rootless.sh ###"
+echo `id`
 echo "###"
 
 echo "> Install dockerd-rootless-setuptool.sh"
