@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "###"
-echo "### install-microk8s.ssh ###"
+echo "### install-microk8s.sh ###"
 echo `id`
 echo "###"
 
